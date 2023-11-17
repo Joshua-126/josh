@@ -1,0 +1,65 @@
+:root {
+    --dark-blue-color: #102036;
+    --dark-grey: #666060; 
+    --green-color: #2A8D08;
+    --blue-color: #71A7E7;
+    --light-grey: #D7D6D6;
+  }
+  
+  
+  .half {
+    background-image: url("imagess/beautiful-tropical-beach-sea-ocean-with-coconut-palm-tree-sunrise-time.jpg");
+    height: 350px; 
+     background-size: cover; 
+    object-fit:fill;
+  }
+  .city-name{
+    padding-block: 150px;
+    padding-left: 70px;
+  }
+  .logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.profile{
+    height: 20px;
+    width: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.city-name{
+  color: #fffdfd;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.bottom{
+  background: #3b3a3a;
+  /* background-image: url("imagess/3714885_1976995\ 1.png"); */
+  background-image: fill;
+  background-size: cover;
+  padding: 100px 200px 100px 200px;
+  background-position: 10%;
+  
+}
+.total{
+  background-color: #ffffff3b;
+  color: #fffdfd;
+  
+  
+}
+.accordion-item{
+  background-color: #000000;
+  
+}
+.total{
+  padding-top: 30px;
+  font-size: large;
+  align-self: center;
+  align-content: center;
+  
+}
+.accordion-body {
+  color: white;
+}

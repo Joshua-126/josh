@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header>
+      <div class="nav">
+            <img class="logo" src="images/logo-transparent-png 1.png" alt="logo">
+                <img class="profile" src="images/person icon_.png" alt="profile">
+            </div>
+     <!--end of nav bar-->
+            <div class="section-one">
+                <div class="left">
+                 <h1 style="font-size:xx-large;">Meals preferences</h1>
+                  <p>Select the meals you would like to include in your trip, your budget for it<br> and the type of food you prefer.</p>
+                  <h2 style="font-size: larger;">Budget level:</h2>
+                  <p>Depending on the budget level, we will select least or more<br> expensive restaurants</p>
+                  <div class="slider">
+                    <label for="customRange3" class="form-label">
+                      <div class="range">
+                      <span class="low">LOW            </span> <span class="mid">MID</span>  <span class="high">HIGH</span>
+                      </div>
+                    </label>
+                    <input type="range" class="form-range" min="0" max="5" step="0.1" id="customRange3"></div>
+
+                </div>
+            </div>
+            <!--end of section one-->
+            <div class="meals">
+                <h1 style="color: rgb(0, 0, 0); font-size: larger;">Meals to include:</h1>
+                <p>
+                    Prices are an estimate of each meal for 3 days per 1 person
+                </p>
+            </div>
+
+            <ul>
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="">BREAKFAST($3 per meal)
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="">LUNCH($10 per meal)
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="">DINNER($15 per meal)
+                </label>
+              </div>
+              <div class="choice">
+                <h1 style="font-size: larger;" >Type of food:</h1>
+              </ul>
+               </div>
+               <!--end of meals to include-->
+               <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">NO PREFERENCE
+                </label>
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">NON-VEGETERIAN
+                  </label>
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">VEGETERIAN
+                  </label>
+              </div>
+              <!-- end of types of food-->
+              </div>
+
+            </div>
+            <div class="total">
+              <p1>TOTAL:-</p1>
+            </div>
+           
+                    <div class="prev">
+                        <button id="prevbtn">back</button>
+                        <button id="nextbtn">next</button>
+                    </div>
+
+    </header>
+
+<script scr="main.js"></script>
+
+
+</body>
+</html>

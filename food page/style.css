@@ -1,0 +1,138 @@
+:root {
+  --dark-blue-color: #102036;
+  --dark-grey: #666060; 
+  --green-color: #2A8D08;
+  --blue-color: #71A7E7;
+  --light-grey: #D7D6D6;
+}
+.nav{
+  background-color: #102036;
+  display:flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.logo{
+    margin-top:50px;
+    margin-left: 40px;
+    height: 50px;
+    width: 270px;
+}
+.profile{
+  margin-top: 50px;
+  margin-right: 40px;
+  height: 20px;
+  width: 20px;
+}
+.section-one{
+  padding: 20px;
+  padding-top: 40px;
+  padding-left: 60px;
+  color: #000000;
+}
+.meals{
+  padding-left: 80px;
+  color: #000000;
+
+}
+.form-check{
+  color: #000000;
+  padding-inline-end: 10px;
+  padding-left: 60px;
+  padding-inline: 10px;
+  padding-block: 5px;
+}
+.form-check-label{
+  padding-left: 150px;
+}
+.form-check-inline{
+  color: #000000;
+  
+  padding-inline: 5px;
+  
+}
+.choice{
+  color: #000000;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+body{
+    background-image: url("images/mexican-dishes-pepper.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    }
+body{
+    margin: 0;
+    font-family: inter;
+    font-size: 18px;
+    }
+
+.profile {
+    float: right;
+}
+
+  
+  .prev {
+    text-align: center
+  }
+
+  #prevbtn {
+    width: 102px;
+height: 41px;
+flex-shrink: 0;
+color: #ffffff;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background-color: var(--dark-blue-color);
+border-radius: 15px;
+  }
+
+  #nextbtn {
+    width: 102px;
+height: 41px;
+flex-shrink: 0;
+color: #ffffff;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background-color: var(--green-color);
+border-radius: 15px;
+  }
+  .total{
+    font-size:x-large;
+    color: #000000;
+    padding-left: 100px;
+    padding-top: 20px;
+
+  }
+
+  .slider{
+    max-width:250px;
+    color: rgb(0, 0, 0);
+    padding-inline: 50px;
+  }
+.form-label{
+  padding: inline 20px;
+  font-size:medium;
+  }
+.low{
+  /* padding-right: 15px; */
+  font-size:small;
+  padding-inline: 5px;
+  
+}
+.high{
+  padding-left: 30px;
+  font-size:small;
+}
+.mid{
+  font-size:small;
+  padding-left: 15px;
+}
+.prev{
+  padding-inline: 30px;
+}
